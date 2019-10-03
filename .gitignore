@@ -6,7 +6,7 @@
 .project
 .metadata
 bin/
-bin64/
+#bin64/
 dll/
 tmp/
 *.tmp
