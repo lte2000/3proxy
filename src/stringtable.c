@@ -10,11 +10,11 @@
 #include "version.h"
 
 unsigned char * strings[] = {
-/* 00 */	(unsigned char *)"3proxy tiny proxy server " VERSION " stringtable file",
-/* 01 */	(unsigned char *)"3proxy",
-/* 02 */	(unsigned char *)"3proxy tiny proxy server",
+/* 00 */	(unsigned char *)"mifi_gw tiny proxy server " VERSION " stringtable file",
+/* 01 */	(unsigned char *)"mifi_gw",
+/* 02 */	(unsigned char *)"mifi_gw tiny proxy server",
 /* 03 */	(unsigned char *)VERSION " (" BUILDDATE ")",
-/* 04 */	(unsigned char *)"3proxy allows to share and control Internet connection and count traffic",
+/* 04 */	(unsigned char *)"mifi_gw allows to share and control Internet connection and count traffic",
 /* 05 */	(unsigned char *)"SERVR",
 /* 06 */	(unsigned char *)"PROXY",
 /* 07 */	(unsigned char *)"TCPPM",
@@ -37,9 +37,9 @@ unsigned char * strings[] = {
 /* 24 */	NULL,
 #ifndef TPROXY_CONF
 #ifndef _WIN32
-/* 25 */	(unsigned char *)"/usr/local/etc/3proxy/3proxy.cfg",
+/* 25 */	(unsigned char *)"/usr/local/etc/mifi_gw/mifi_gw.cfg",
 #else
-/* 25 */	(unsigned char *)"3proxy.cfg",
+/* 25 */	(unsigned char *)"mifi_gw.cfg",
 #endif
 #else
 /* 25 */       (unsigned char *)TPROXY_CONF,
